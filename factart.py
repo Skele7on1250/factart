@@ -10,8 +10,8 @@ wikipedia.set_lang("ru")
 cnt=1
 cnt2=1
 cntpic=5
-token='973289936:AAFhBOYie-K-k5gOtERD_JETgBEs3QijJEE'
-owm = pyowm.OWM('b60d8f4b900b4ebda7083fbd48264572',language='ru')
+
+owm = pyowm.OWM('owm_token',language='ru')
 bot=telebot.TeleBot(token)
 choose_key=telebot.types.ReplyKeyboardMarkup(True)
 more_pics=telebot.types.ReplyKeyboardMarkup(True)
